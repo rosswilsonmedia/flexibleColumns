@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.row:first-child{
+    padding-top:1em;
+}
+.row{
+    display: flex;
+}
+.row>div{
+    background-color: #70a7ab;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.row>div:not(:first-child){
+    margin-left: 1em;
+}
+.col {
+    flex: 1;
+}
+.col-2{
+    flex: 2;
+}
+.col-3{
+    flex:3;
+}
